@@ -1,0 +1,10 @@
+# ===== 项目依赖库 =====
+# 安装命令（在项目文件夹里打开命令行）：
+#   pip install -r requirements.txt
+#
+# 说明：
+# ultralytics  : 提供 YOLOv8 目标检测模型（会自动安装配套的 PyTorch）
+# opencv-python: OpenCV，负责摄像头画面读取、绘图、窗口显示
+
+ultralytics>=8.0.0
+opencv-python>=4.8.0
